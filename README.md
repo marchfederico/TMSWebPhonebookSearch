@@ -27,6 +27,7 @@ Run the app
 
   node app.js
 
+```
 
 ## Contributors
 
