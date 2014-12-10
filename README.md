@@ -1,4 +1,4 @@
-# TMS Web Phone book Search 
+# TMS Web Phone Book Search 
 > A way to search TMS phone books via the web
 
 
