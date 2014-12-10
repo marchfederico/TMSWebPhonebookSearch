@@ -4,8 +4,6 @@
 
 ## Install
 
-Install with [npm](http://github.com/isaacs/npm):
-
 ```
 Clone the respository:
 
