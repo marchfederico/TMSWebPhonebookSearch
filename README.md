@@ -5,7 +5,7 @@ TMSWebPhonebookSearch is a NodeJS  server side application.  You must have NodeJ
 
 ## Install
 
-1.	Download and install NodeJS  Go to http://nodejs.org/ and install the latest package on your server.
+1.	Download and install NodeJS.  Go to http://nodejs.org/ and install the latest package on your server.
 
 2.	Install the TMSWebPhonebookSearch application from github.com.  There are two ways to do this:
 
@@ -15,8 +15,8 @@ TMSWebPhonebookSearch is a NodeJS  server side application.  You must have NodeJ
 
  	OR
 
-	Download the zipped up package from this location:
-	https://github.com/marchfederico/TMSWebPhonebookSearch/archive/master.zip
+	Download the zipped up package from this location:<br>
+	https://github.com/marchfederico/TMSWebPhonebookSearch/archive/master.zip<br>
 	The contents will unzip into a new folder.
 
 3.	In the TMSWebPhonebookSearch directory, install the module dependencies by issuing this command:
