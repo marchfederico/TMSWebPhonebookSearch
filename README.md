@@ -34,13 +34,13 @@ TMSWebPhonebookSearch is a NodeJS  server side application.  You must have NodeJ
   	var HTTPPort = 3000;
   	var CodecMAC = 'E4:C7:22:60:F2:B8'   // TMS registered Endpoint MAC address (you are searching the phone books asscoiated with this endpoint)
 	````
-	
+
 5.	Run the application by issues this command
 
   	node app.js
 
 
-6.	Test your deployment by going to the http://<yourserver_ip>:3000/
+6.	Test your deployment by going to the http://yourserver_ip:3000/
 
 
 ## Contributors
