@@ -9,22 +9,23 @@ TMSWebPhonebookSearch is a NodeJS  server side application.  You must have NodeJ
 
 2. Install the TMSWebPhonebookSearch application from github.com.  There are two ways to do this:
 
-If you have the git tools installed you can just clone the TMSWebPhonebookSearch repository by issuing this command:
+	If you have the git tools installed you can just clone the TMSWebPhonebookSearch repository by issuing this command:
 
-git clone https://github.com/marchfederico/TMSWebPhonebookSearch.git
+	git clone https://github.com/marchfederico/TMSWebPhonebookSearch.git
 
- OR
+ 	OR
 
-Download the zipped up package from this location:
-https://github.com/marchfederico/TMSWebPhonebookSearch/archive/master.zip
-The contents will unzip into a new folder.
+	Download the zipped up package from this location:
+	https://github.com/marchfederico/TMSWebPhonebookSearch/archive/master.zip
+	The contents will unzip into a new folder.
 
-3 In the TMSWebPhonebookSearch directory, install the module dependencies by issuing this command:
+3. In the TMSWebPhonebookSearch directory, install the module dependencies by issuing this command:
 
 npm install
 
 4.  Edit the global variables in the  app.js file to match your deployment:
 
+````
   //Global Variables  #change them
 
   var TMSHostName = 'tms.server.com' 
@@ -32,7 +33,7 @@ npm install
   var TMSPassword = 'password'
   var HTTPPort = 3000;
   var CodecMAC = 'E4:C7:22:60:F2:B8'   // TMS registered Endpoint MAC address (you are searching the phone books asscoiated with this endpoint)
-
+````
 5. Run the application by issues this command
 
   node app.js
