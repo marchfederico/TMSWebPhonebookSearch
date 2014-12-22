@@ -21,19 +21,20 @@ TMSWebPhonebookSearch is a NodeJS  server side application.  You must have NodeJ
 
 3.	In the TMSWebPhonebookSearch directory, install the module dependencies by issuing this command:
 
-npm install
+	npm install
 
 4.	Edit the global variables in the  app.js file to match your deployment:
 
-````javascript
-  //Global Variables  #change them
+	````javascript
+  	//Global Variables  #change them
 
-  var TMSHostName = 'tms.server.com' 
-  var TMSUsername = 'username'
-  var TMSPassword = 'password'
-  var HTTPPort = 3000;
-  var CodecMAC = 'E4:C7:22:60:F2:B8'   // TMS registered Endpoint MAC address (you are searching the phone books asscoiated with this endpoint)
-````
+  	var TMSHostName = 'tms.server.com' 
+  	var TMSUsername = 'username'
+  	var TMSPassword = 'password'
+  	var HTTPPort = 3000;
+  	var CodecMAC = 'E4:C7:22:60:F2:B8'   // TMS registered Endpoint MAC address (you are searching the phone books asscoiated with this endpoint)
+	````
+	
 5.	Run the application by issues this command
 
   	node app.js
