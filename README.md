@@ -11,7 +11,7 @@ TMSWebPhonebookSearch is a NodeJS  server side application.  You must have NodeJ
 
 	If you have the git tools installed you can just clone the TMSWebPhonebookSearch repository by issuing this command:
 
-	git clone https://github.com/marchfederico/TMSWebPhonebookSearch.git
+	<b>git clone https://github.com/marchfederico/TMSWebPhonebookSearch.git</b>
 
  	OR
 
@@ -21,7 +21,7 @@ TMSWebPhonebookSearch is a NodeJS  server side application.  You must have NodeJ
 
 3.	In the TMSWebPhonebookSearch directory, install the module dependencies by issuing this command:
 
-	npm install
+	<b>npm install</b>
 
 4.	Edit the global variables in the  app.js file to match your deployment:
 
@@ -37,7 +37,7 @@ TMSWebPhonebookSearch is a NodeJS  server side application.  You must have NodeJ
 
 5.	Run the application by issues this command
 
-  	node app.js
+  	<b>node app.js</b>
 
 
 6.	Test your deployment by going to the http://yourserver_ip:3000/
