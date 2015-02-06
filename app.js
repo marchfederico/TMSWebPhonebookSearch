@@ -82,7 +82,7 @@ var TMSWebPhonebookSearch = function() {
     }
 
     self.startServer = function() {
-      this.app.listen(3000)
+      this.app.listen(HTTPPort)
     }
 
 }
